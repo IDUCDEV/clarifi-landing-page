@@ -409,6 +409,7 @@ export default function LandingPage() {
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm gap-4">
             <p>&copy; 2025 ClariFi. Todos los derechos reservados.</p>
+            <p>Developed by <a href="https://www.iducdev.com" target="_blank" rel="noreferrer noopener" className="hover:text-[#FFAFCC] transition">IDUCDEV</a></p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-[#FFAFCC] transition">
                 Twitter
