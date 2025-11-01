@@ -1,8 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ClariFi - Landing Page
+
+Una landing page moderna y elegante para la aplicación de gestión financiera ClariFi, construida con Next.js y Tailwind CSS.
+
+## Descripción del Proyecto
+
+Esta landing page presenta las características principales de ClariFi, una aplicación móvil para el control de finanzas personales. Incluye secciones para:
+
+- **Hero Section**: Presentación de la app con llamada a acción principal
+- **Características**: 6 funciones clave (seguimiento de transacciones, presupuestos inteligentes, alertas, gráficas, múltiples cuentas y seguridad)
+- **Beneficios**: Lista de ventajas de usar ClariFi
+- **Descarga**: Sección de llamada a acción para descargar la APK
+- **Footer**: Información de contacto y enlaces legales
+
+## Tecnologías Utilizadas
+
+- **Next.js 15**: Framework React para aplicaciones web
+- **TypeScript**: Tipado estático para JavaScript
+- **Tailwind CSS**: Framework CSS utilitario
+- **Lucide React**: Biblioteca de iconos (reemplazados por SVGs inline para reducir dependencias)
+- **Next.js Image**: Optimización automática de imágenes
+
+## Características Técnicas
+
+- Diseño responsive completamente adaptativo
+- Animaciones suaves con CSS transitions
+- Optimización de imágenes con Next.js
+- Configuración de dominios externos para imágenes
+- Componentes reutilizables y modulares
 
 ## Getting Started
 
-First, run the development server:
+Primero, instala las dependencias:
+
+```bash
+npm install
+```
+
+Luego, ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
@@ -14,11 +48,11 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Puedes empezar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente conforme editas el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para optimizar y cargar automáticamente [Geist](https://vercel.com/font), una nueva familia tipográfica para Vercel.
 
 ## Learn More
 
